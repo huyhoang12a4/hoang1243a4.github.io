@@ -1,0 +1,403 @@
+*{
+	padding: 0;
+	margin: 0;	
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{}
+
+h1{
+	font-size: 100px;
+}
+h2{
+	font-size: 75px;
+}
+h3{
+	font-size: 50px;
+}
+h4{
+	font-size: 25px;
+}
+h5{
+	font-size: 20px;
+}
+h6{
+	font-size: 15px;
+}
+p{
+	color: #bdbdbd;
+	letter-spacing: 2px;
+	height: 120px;
+	line-height: 28px;
+}
+img{
+	max-width: 100%;
+}
+body{
+	font-family: 'Muli', sans-serif;
+}
+#content{
+	width: 1900px;
+	height: 5267px;
+	margin: 0 auto;
+}
+.boder-bottom{
+	border-bottom-color:#bdbdbd;
+	width: 100px;
+	background: #bdbdbd;
+	height: 3px;
+	margin: 0 auto;
+	
+}
+
+																						/*	Header*/
+
+#header{
+	height: 987px;
+	background-color:white;	
+}
+																						/* Title */
+.header-title {
+	width: 500px;
+	float: left;
+	margin-top: 0px;
+}
+
+																						/* END Title */
+
+																						/* Menu */
+.header-menu{
+	float: right;
+	margin-top: 85px;
+}
+.header-menu ul{
+	list-style: none;
+}
+.header-menu ul li{
+	padding: 0px 60px;
+	float: left;
+	position: relative;
+}
+.header-menu a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #bdbdbd;
+	margin-left: 20px;
+	background: transparent;
+}
+.header-menu ul li:hover a {
+	color: #7122fa;
+	border-bottom: solid 3px #7122fa;
+	font-weight:600;
+	transition-delay: 0.4s;
+	line-height: 50px;
+}
+.header-menu ul li ul{
+	left: 0px;	
+	position: absolute;
+	top:45px;
+	width: 300px;
+	visibility: hidden;
+}
+.header-menu ul li:hover ul	{
+	visibility: visible;
+	transition-delay: 0.4s;
+}
+.header-menu ul li ul li{
+	line-height: 50px;	
+}
+
+/* END Menu */
+
+																						/* introduction */
+.header-introduction{
+	float: left;
+	width: 625px;
+	margin-top: 260px;
+	margin-left: -200px;
+	font-weight: 100;
+}
+.header-introduction p{
+	color:#000000;
+	font-weight:bold;
+}
+.header-introduction h1{
+	color:#7122fa;
+	font-weight:bold;
+	margin-bottom: 20px;
+}
+.header-introduction h5{
+	
+	font-size: 12px;
+	margin-left: 315px;
+	color: #bdbdbd;
+}
+
+.header-Iam {
+	width: 505px;
+	float: right;
+	margin-top: 75px;
+}
+																						/* END introduction */
+
+
+																				/* 	Body */
+
+
+.body{
+	height: 4180px;
+}
+																				/* About */
+#About-Me{
+	height: 645px;
+	background: #eaf7f6;
+}
+.About-Me-img{
+	width: 518px;
+	margin-left: 50px;
+	float: left;
+}
+.About-Me-text{
+	float:right;
+	width: 800px;
+}
+.About-Me-text h3{
+	margin-left: -80px;
+	margin-top: 75px;
+	margin-bottom: 75px;
+}
+.About-Me-text p{
+	width: 530px;
+	height: 120px;
+	line-height: 28px;
+	margin-left: -60px;
+}
+																				/* END About */
+
+																				/* Services */
+#My-Services{
+	height: 670px;
+	background: white;
+}
+.My-Services-banner h3{
+	padding-top: 70px;
+	margin-left: 720px;
+}
+.My-Services-box-text1{
+	width: 337px;
+	text-align: center;
+	float: left;
+	margin-top: 100px;
+	margin-left: 198px;
+	display: block;
+}
+.My-Services-box-text1 h4{
+	margin-bottom: 65px;
+	font-weight: 400;
+	padding-top: 25px;
+}
+.My-Services-box-text1 p{
+	height: 120px;
+	line-height: 28px;	
+}
+.My-Services-box-text1:hover {
+	background: transparent;
+	box-shadow: 8px 10px 30px 10px #7122fa;
+	border-radius: 30px;
+	color: #7122fa;
+	cursor:pointer;
+	transition-delay: 0.2s;
+}
+.My-Services-box-text1:hover .boder-bottom {
+	background: #7122fa;
+}
+																					/* END Services */	
+
+																					/* Skill */
+#My-Skill{
+	height: 700px;
+	background: white;
+}
+.My-Skill-banner{
+	text-align: center;
+	margin-left: 125px;
+	padding-top: 90px;
+	margin-bottom: 70px;
+}
+.My-Skill-img{
+	margin-left: 165px;
+	width: 600px;
+	float: left;
+}
+.My-Skill-img:hover img{
+	box-shadow: 8px 10px 30px 10px #7122fa;
+	border-radius: 30px;
+	transition-delay: 2s;
+} 
+
+.My-Skill-text {
+	float: right;
+	width: 515px;
+	margin-top: 60px;
+	margin-right: 130px
+}
+
+.My-Skill-text ul{
+	margin-top: 64px;
+	line-height: 34px;
+	margin-left: 18px;
+}
+																						/* END Skill */
+													
+																						/* Frotfolio */
+#Our-Protfolio{
+	height: 1215px;
+	background:white;
+}
+#Our-Protfolio h3{
+	text-align: center;
+	margin-left: 125px;
+	padding-top: 90px;
+	margin-bottom: 70px;
+}
+.slider img{
+	width: 50%;
+	margin: 0 auto;
+	cursor:grab;
+}
+.slider:hover img{
+	box-shadow: 1px 1px 10px 1px #7122fa;
+}
+																						/* END Frotfolio */
+
+																						/* Feedback */
+.FeedBack{
+	height: 850px;
+	background:white;
+}
+
+.FeedBack-Banner {
+	text-align: center;
+	padding-top: 85px;
+	margin-bottom: 50px;
+	background: white;
+} 
+fieldset{
+	width: 1000px;
+	height: 615px;
+	background: white;
+	border: hidden;
+	font-size: 30px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 85px;
+}
+fieldset input {
+	border:hidden;
+	border-bottom: solid 1px #bbbbbb;
+	display: block;
+	display: inline-block;
+}
+textarea{
+	border: hidden;
+	border-bottom: solid 1px #bbbbbb;
+}
+.part-7-1{
+	word-spacing: 24px;
+}
+.part-7-feedback a{
+	text-decoration: none;
+}
+.part-7-feedback p{
+	margin: 40px 130px;
+	width: 180px;
+	height: 55px;
+	text-align: center;
+	line-height: 55px;
+	color: black;
+}
+.part-7-feedback a:hover p{
+	background: #f48146;
+	border-radius: 25px;
+	box-shadow: 2px 2px 10px 5px #e7e2e2;
+	color: white;
+}
+.FeedBack-Send{
+	margin-top: 35px;
+}
+
+.FeedBack-Send img{
+	width: 85px;
+	height: 50px;
+	line-height: 50px;
+}
+.FeedBack-Send:hover img{
+	color: black;
+	font-weight: bold;
+	background: transparent;
+	border-bottom: solid 3px #7122fa;
+	transition-delay: 0.4s;
+	opacity: 0.7;
+}
+fieldset:hover{
+	box-shadow: 1px 1px 10px 1px #7122fa;
+}
+																				/* END Feedback* /
+
+																				/*	Footer */
+	
+#footer{
+	height: 300px;
+	background: #ECA7A8;
+}
+.Contact {
+	text-align: center;
+}
+.Contact h3{
+	padding-top: 65px;
+	margin-bottom: 75px;
+}
+.Contact-text-icon{
+	text-align: center;
+	height: 100px;
+	line-height: 48px;
+	margin-bottom: 30px;
+}
+.icon-facebook{
+	text-align: center;
+	width: 110px;
+	float: left;
+	margin-left: 730px;
+}
+.icon-facebook:hover img{
+	width: 130px;
+}
+.icon-gmail{
+	text-align: center;
+	width: 110px;
+	float: right;
+	margin-right: 715px;
+}
+.icon-gmail:hover img{
+	width: 130px;
+}
+.footer-icon {
+	height: 150px;
+}
+.footer-slogan {
+	text-align: center;
+}
+.footer-slogan img{
+	width: 588px;
+	margin-top: 75px;
+}
+.footer-slogan:hover img{
+	box-shadow: 1px 1px 100px 10px #7122fa;
+	transition-delay: 2s;
+	border-radius: 30px;
+}
