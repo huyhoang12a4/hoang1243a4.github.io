@@ -144,7 +144,12 @@ body{
 	margin-top: 75px;
 }
 																						/* END introduction */
-
+#header {
+	background: url("image/avatar.png");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: 750px 150px;
+}
 
 																				/* 	Body */
 
