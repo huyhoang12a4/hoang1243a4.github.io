@@ -100,14 +100,13 @@ body{
 .header-menu ul li:hover a {
 	color: #7122fa;
 	border-bottom: solid 3px #7122fa;
-	font-weight:600;
 	transition-delay: 0.4s;
-	line-height: 50px;
+	line-height: 30px;
 }
 .header-menu ul li ul{
 	left: 0px;	
 	position: absolute;
-	top:45px;
+	top:35px;
 	width: 300px;
 	visibility: hidden;
 }
