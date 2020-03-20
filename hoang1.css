@@ -51,9 +51,16 @@ body{
 	width: 100px;
 	background: #bdbdbd;
 	height: 3px;
-	margin: 0 auto;
-	
+	margin: 0 auto;	
 }
+.boder-bottom2{
+	border-bottom-color:#bdbdbd;
+	width: 100px;
+	background: #bdbdbd;
+	height: 3px;
+	margin: 0 auto;	
+}
+
 
 																						/*	Header*/
 
@@ -279,17 +286,38 @@ body{
 .talent{
 	text-align: center;
 }
-.talent p{
-	border: solid 0.5px #D9D6D6 ;
-	width: 555px;
-	height: 40px;
-	line-height: 40px;
-	font-size: 12px;
-	margin: 0 auto;
+.talent button{
+	width: 125px;
+	height: 50px;
+	background: transparent;
+	border: 0px;
+	font-weight: bolder;
+	border-radius: 20px;
 }
-.talent:hover p	{
+
+.talent:hover button	{
 	box-shadow: 0px 0px 5px 0.5px #7122fa;
-}																					/* END Frotfolio */
+	background: black;
+	color: white;
+	cursor: pointer;
+}
+#Our-Protfolio .boder-bottom{
+	width: 44px;
+	margin-left: 710px;
+	margin-top: -80px;
+	opacity: 0.5;
+	float: left;
+}
+#Our-Protfolio .boder-bottom2{
+	width: 44px;
+	margin-left: 1145px;
+	margin-top: -80px;
+	opacity: 0.5;
+	float: left;
+}
+
+
+																				/* END Frotfolio */
 
 																						/* Feedback */
 .FeedBack{
