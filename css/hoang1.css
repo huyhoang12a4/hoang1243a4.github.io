@@ -218,11 +218,16 @@ body{
 }
 .My-Services-box-text1:hover {
 	background: transparent;
-	box-shadow: 8px 10px 30px 10px #7122fa;
 	border-radius: 30px;
 	color: #7122fa;
 	cursor:pointer;
 	transition-delay: 0.2s;
+		 box-shadow:
+                1px 1px 10px 0px #7122fa,
+                3px 3px 10px 3px #c5a3fe,
+                3px 3px 10px 3px #ebdfff;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(10px);
 }
 .My-Services-box-text1:hover .boder-bottom {
 	background: #7122fa;
@@ -245,7 +250,12 @@ body{
 	float: left;
 }
 .My-Skill-img:hover img{
-	box-shadow: 8px 10px 30px 10px #7122fa;
+			 box-shadow:
+                1px 1px 10px 0px #7122fa,
+                3px 3px 10px 3px #c5a3fe,
+                3px 3px 10px 3px #ebdfff;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(10px);
 	border-radius: 30px;
 	transition-delay: 2s;
 } 
@@ -390,7 +400,13 @@ img {vertical-align: middle;}
 }
 
 .talent:hover button	{
-	box-shadow: 0.5px 0.5px 5px 0.5px #7122fa;
+	 box-shadow:
+                1px 1px 10px 0px #7122fa,
+                1px 1px 10px 0px #878c92,
+                1px 1px 10px 0px #878c92;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-5px);
+	
 	background: black;
 	color: white;
 	cursor: pointer;
