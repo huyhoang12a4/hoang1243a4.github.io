@@ -42,8 +42,8 @@ body{
 	font-family: 'Muli', sans-serif;
 }
 #content{
-	width: 1900px;
-	height: 5167px;
+	width: 1800px;
+	height: 6067px;
 	margin: 0 auto;
 }
 .boder-bottom{
@@ -161,7 +161,7 @@ body{
 
 
 .body{
-	height: 4080px;
+	height: 4980px;
 }
 																				/* About */
 #About-Me{
@@ -276,7 +276,7 @@ body{
 													
 																						/* Frotfolio */
 #Our-Protfolio{
-	height: 1115px;
+	height: 2115px;
 	background:white;
 }
 #Our-Protfolio h3{
@@ -288,7 +288,10 @@ body{
 	height: auto;
 	margin-bottom: 44px;
 }
-
+.slider-2{
+	height: auto;
+	margin-bottom: 44px;
+}
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
@@ -386,48 +389,57 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-
 .talent{
-	text-align: center;
+	height: 900px;
+	width: 990px;
+	margin: 0 auto;
 }
-.talent button{
-	width: 125px;
-	height: 45px;
-	background: transparent;
-	border: 0px;
-	font-weight: bolder;
-	border-radius: 40px;
+.talent h6{
+	text-align: center;
+	
+}
+.img-talent{
+	justify-content:center;
+	display:flex;
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin: 15px;
+}
+.talent .img-talent img{
+	
+	 transition:all 0.3s ease;
+	-webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(0.9);
+	
+}
+.talent .img-talent:hover img{
+	-webkit-transform: rotateZ(-5deg);
+        -ms-transform: rotateZ(-5deg);
+        transform: rotateZ(-5deg);
 }
 
-.talent:hover button	{
-	 box-shadow:
-                1px 1px 10px 0px #7122fa,
-                1px 1px 10px 0px #878c92,
-                1px 1px 10px 0px #878c92;
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-5px);
-	
-	background: black;
-	color: white;
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 400;
-}
 #Our-Protfolio .boder-bottom{
 	width: 44px;
-	margin-left: 710px;
-	margin-top: -80px;
+	margin-left: 310px;
+	margin-top: -27px;
 	opacity: 0.5;
 	float: left;
 }
 #Our-Protfolio .boder-bottom2{
 	width: 44px;
-	margin-left: 1145px;
-	margin-top: -80px;
+	margin-left: 635px;
+	margin-top: -27px;
 	opacity: 0.5;
 	float: left;
 }
+.mySlides .text{
 
+ 
+	color: black;
+	height: 20px;
+}
 
 																				/* END Frotfolio */
 
