@@ -6,8 +6,13 @@
 		<link rel="stylesheet" href="css/hoang1.css" type="text/css">
 <!--	  				light box-->
 			<link rel="stylesheet" href="css/lightbox.min.css">
-<!--	  				light box-->
-
+<!--	  			end	light box-->
+	
+<!--					WOW-->
+	 <link rel="stylesheet" href="css/animate.css">
+  	<link rel="stylesheet" href="css/site.css">
+				
+<!--				end	WOW-->
 </head>
 
 <body>
@@ -114,7 +119,7 @@ function topFunction() {
 					<img src="image/jpg - Copy/img-introduc.jpg" alt="milk-coffee">
 				</div>
 				
-				<div class="About-Me-text">
+				<div class="About-Me-text section--blue wow bounceInLeft" data-wow-offset="200">
 					<h3>Một chút bản thân về tôi...</h3>
 					<p>Đi đâu và làm gì tôi luôn luôn mang trong đầu một câu:  <span style="font-weight: bold">Work Hard - Play Hard.</span></p>
 					<p>Tên đầy đủ của tôi là BÙI HUY HOÀNG năm nay 23 tuổi, vẫn đang học tại trường Arena Multimedia Nguyễn Đình Chiểu Q3, Tp HCM. </p>
@@ -697,5 +702,27 @@ function showSlides(n) {
 <!--			light box-->
 			<script src="js/lightbox-plus-jquery.min.js"></script>
 <!--			light box-->
+	
+<!--			WOW-->
+	<script src="js/wow.js"></script>
+	
+	 <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function() {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+<!--		end	WOW-->
 </body>
 </html>

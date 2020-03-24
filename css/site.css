@@ -1,0 +1,26 @@
+
+
+section {
+  height: 300px;
+  margin: 60px 0;
+}
+
+.section--purple {
+  background-color: transparent;
+}
+
+.section--blue {
+  background-color: transparent;
+}
+
+.section--green {
+  background-color:  transparent;
+}
+
+#main {
+  text-align: center;
+}
+
+#more {
+  margin: 20px auto 48px;
+}
