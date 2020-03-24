@@ -197,7 +197,7 @@ body{
 }
 .My-Services-banner h3{
 	padding-top: 70px;
-	margin-left: 720px;
+	text-align: center;
 }
 .My-Services-box-text1{
 	width: 337px;
@@ -566,7 +566,7 @@ fieldset:hover{
 }
 .footer-slogan:hover img{
 	box-shadow: 1px 1px 100px 10px #7122fa;
-	transition-delay: 2s;
+	transition-delay: 4s;
 	border-radius: 30px;
 }
 
