@@ -67,6 +67,7 @@ body{
 #header{
 	height: 987px;
 	background-color:white;	
+
 }
 																						/* Title */
 .header-title {
@@ -81,6 +82,7 @@ body{
 .header-menu{
 	float: right;
 	margin-top: 85px;
+
 }
 .header-menu ul{
 	list-style: none;
@@ -127,6 +129,7 @@ body{
 	margin-top: 260px;
 	margin-left: -200px;
 	font-weight: 100;
+	animation: bounceInDown 2s 1s forwards;
 }
 .header-introduction p{
 	color:#000000;
@@ -155,6 +158,8 @@ body{
 	background-size: 80%;
 	background-repeat: no-repeat;
 	background-position: 750px 150px;
+	animation: fadeIn 2s 1s forwards;
+	opacity: 0;
 }
 
 																				/* 	Body */
