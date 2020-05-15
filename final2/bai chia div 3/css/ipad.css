@@ -1,0 +1,25 @@
+@media screen and (max-width: 1024px)
+{
+	.container
+	{
+		width: auto;
+		height: auto;
+	}
+	#header
+	{
+		width: auto;
+		height: 1080px;
+	}
+	.logo-nav
+	{
+		width: auto;
+		height: auto;
+	}
+	.logo
+	{
+		width: 100%;
+		height: auto;	
+	}
+	
+	
+}

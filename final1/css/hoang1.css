@@ -1,6 +1,7 @@
 *{
 	padding: 0;
 	margin: 0;	
+	
 }
 
 html,
@@ -40,11 +41,14 @@ img{
 }
 body{
 	font-family: 'Muli', sans-serif;
+	
 }
 #content{
 	width: 1800px;
 	height: 6067px;
 	margin: 0 auto;
+
+	
 }
 .boder-bottom{
 	border-bottom-color:#bdbdbd;
